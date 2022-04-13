@@ -17,7 +17,7 @@ public class FB_LOGIN_InvalidData extends BaseClass {
 	@Given("Open FB URL")
 	public void Open_FB_URL() {
 		chromeBrowser();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.facebook.com/");		
 	}
 
 	@When("User enter invalid credentials")
